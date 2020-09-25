@@ -9,15 +9,10 @@
     <script src="TemplateData/UnityProgress.js"></script>  
     <script src="Build/UnityLoader.js"></script>
     <script>
-      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/webv2.json", {onProgress: UnityProgress});
-      function Reset(){
-        var canvas = document.getElementById("#canvas");
-        canvas.height= document.documentElement.clientHeight;
-        canvas.width = document.documentElement.clientWidth;
-      }
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/web_test.json", {onProgress: UnityProgress});
     </script>
   </head>
-  <body onload="Reset()" onresize="Reset()">
+  <body>
     <div class="webgl-content">
       <div id="gameContainer" style="width: 960px; height: 600px"></div>
       <div class="footer">
