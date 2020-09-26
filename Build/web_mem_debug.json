@@ -1,0 +1,15 @@
+{
+"companyName": "DefaultCompany",
+"productName": "pokeball",
+"dataUrl": "web_mem_debug.data.unityweb",
+"wasmCodeUrl": "web_mem_debug.wasm.code.unityweb",
+"wasmFrameworkUrl": "web_mem_debug.wasm.framework.unityweb",
+"asmCodeUrl": "web_mem_debug.asm.code.unityweb",
+"asmMemoryUrl": "web_mem_debug.asm.memory.unityweb",
+"asmFrameworkUrl": "web_mem_debug.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
